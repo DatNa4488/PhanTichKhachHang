@@ -20,6 +20,14 @@ retail-demand-forecast/
 └── README.md           # Hướng dẫn dự án
 ```
 
+### 3. Notebooks Phân Tích (`notebooks/`)
+Dự án bao gồm 3 notebook chi tiết cho các giai đoạn phân tích:
+*   `01_eda.ipynb`: **Khám Phá Dữ Liệu (EDA)** - Kiểm tra chất lượng dữ liệu, phân tích xu hướng doanh thu, sản phẩm bán chạy và tỷ lệ hủy đơn hàng.
+*   `02_rfm_analysis.ipynb`: **Phân Tích Khách Hàng** - Phân nhóm khách hàng theo RFM, biểu đồ Treemap và đề xuất chiến lược cho từng nhóm.
+*   `03_forecasting_analysis.ipynb`: **Đánh Giá Mô Hình** - Kiểm tra độ chính xác (MAE, RMSE) của mô hình dự báo và phân tích tầm quan trọng của các đặc trưng (Feature Importance).
+
+### 4. Ứng dụng Streamlit (`src/app/`)
+
 ## Cài Đặt
 
 1.  **Clone hoặc tạo dự án**: Đảm bảo bạn đang ở thư mục gốc `retail-demand-forecast`.

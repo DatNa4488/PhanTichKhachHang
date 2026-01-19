@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data (Too large for git)
+data/
+*.parquet
+*.xlsx
+
+# Models (Too large, reproduce via code)
+*.pkl
+*.joblib
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/
