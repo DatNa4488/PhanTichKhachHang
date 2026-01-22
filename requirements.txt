@@ -8,3 +8,9 @@ streamlit
 openpyxl
 duckdb
 prophet
+# AutoGluon for advanced forecasting
+autogluon.timeseries
+# Enhanced UI components
+streamlit-extras
+# Additional visualization
+kaleido
